@@ -1,0 +1,77 @@
+/*
+Theme Name: divi-child
+Version: 1.0
+Description: A child theme of Divi
+Template: Divi
+*/
+
+@import url("style_1.css");
+
+@import url("stylesheet_1.css");
+
+@import url("stylesheet_2.css");
+
+/* BASE
+ * normally elements without rules, eg. h1, h2, p, a
+ */
+
+/*h1,
+h2,
+h3 {
+  font-family: 'klinic_slabmedium_italic';
+}*/
+
+
+/* LAYOUT
+ * generally major layout components with ids, eg. #header
+ */
+
+
+#logo {
+  top: 60px;
+  display: block;
+  position: absolute;
+}
+
+
+#main-header {
+  height: 115px;
+}
+
+@media (max-width: 980px) {
+	.et_header_style_left #logo {
+		top: 30px;
+	}
+}
+
+
+#et-top-navigation {
+  padding-top: 65px !important;
+}
+/*
+.et-fixed-header #logo {
+  top: 10px;
+  display: block;
+  position: absolute;
+  max-height: 70% !important;
+}
+*/
+
+#top-menu li {
+  padding-right: 18px;
+}
+
+/* MODULES
+ * normally repeatable blocks with classes and sub classes, eg. .block and .block-left
+ */
+
+.et-top-navigation {
+  top: 50px;
+}
+
+.et_pb_slide_description {
+  float: left !important;
+}
+/* THEME
+ * normally overrides for things like fonts and colours only
+ */
